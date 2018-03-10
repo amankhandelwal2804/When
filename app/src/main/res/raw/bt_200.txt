@@ -1,0 +1,12 @@
+Free
+Maths
+Thermo. Kin.
+Transfer Op.
+Mol. Biology
+IMET
+Lab/HMTS
+Lab/Maths
+Lab/Transfer Op.
+Lab/Mol. Bio.
+Lab/ETFT
+Humanities

@@ -1,0 +1,13 @@
+Free
+Chem.
+EM Th.
+Dig. Elec.
+Analog Comm.
+Solid State
+Physics
+Humanities
+EM Th. Lab.
+Dig. Elec. Lab.
+A. Comm. Lab.
+Phys. Lab.
+Hmts. Lab.

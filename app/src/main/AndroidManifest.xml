@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.when.threemb.when">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@raw/iconx"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TimeTable"
+            android:label="@string/title_activity_time_table"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Attendance"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".TimeTable" />
+        <activity
+            android:name=".Register"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:label="Login" />
+        <activity
+            android:name=".PostRequest"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".TimeTable" />
+        <activity android:name=".ChangeAttendance"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".Attendance"
+            />
+        <activity
+            android:name=".SeeAnnouncement"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".TimeTable" />
+        <activity
+            android:name=".OtherDays"
+            android:label="TimeTable"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".TimeTable"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main2Activity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:label="Make your opinion Count !!"
+            android:parentActivityName=".TimeTable"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AboutUs"
+            android:label="About Us"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".TimeTable"
+            ></activity>
+    </application>
+
+</manifest>

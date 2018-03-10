@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/dotted"
+            android:title="Attendance" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/dotted"
+            android:title="TimeTable" />
+        <!--<item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Tuesday" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Wednesday" />
+        <item
+            android:id="@+id/nav_manage2"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Thursday" />
+        <item
+            android:id="@+id/nav_manage3"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Friday" />-->
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@raw/ic_do"
+                android:title="Make an announcement" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@raw/ic_make"
+                android:title="View Announcements" />
+            <item
+                android:id="@+id/nav_vote"
+                android:icon="@raw/ic_touch"
+                android:title="Vote" />
+
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@raw/aboutico"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>

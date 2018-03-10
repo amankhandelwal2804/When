@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">When</string>
+    <string name="title_activity_time_table">TimeTable</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="dept_array">
+        <item></item>
+        <item>IT</item>
+        <item>CSEA</item>
+        <item>CSEB</item>
+        <item>CSEC</item>
+        <item>MEA</item>
+        <item>MEB</item>
+        <item>CEA</item>
+        <item>CEB</item>
+        <item>ChE</item>
+        <item>AEIE</item>
+        <item>ECEA</item>
+        <item>ECEB</item>
+        <item>ECEC</item>
+        <item>EE</item>
+        <item>BT</item>
+    </string-array>
+    <string-array name="Sem">
+        <item></item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="Grp">
+        <item></item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string name="title_activity_other_days">OtherDays</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>
